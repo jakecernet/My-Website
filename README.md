@@ -1,2 +1,2 @@
 # jakecernet.github.io
-hello
+Hello. This is my personal website.
