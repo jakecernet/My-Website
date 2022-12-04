@@ -1,4 +1,7 @@
 # My Website
 Hello. This is my personal website.
-https://jakecer.tk/img/logo.png
+![image][def]
 https://jakecer.tk
+
+
+[def]: https://jakecer.tk/img/logo.png
