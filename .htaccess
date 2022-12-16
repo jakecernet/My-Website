@@ -1,2 +1,2 @@
 Options +MultiViews
-ErrorDocument 404 /filenotfound.php
+ErrorDocument 404 /404.php
