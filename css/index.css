@@ -40,6 +40,10 @@ header{
     padding: 10px 10px;
 }
 
+.logo:hover{
+	opacity: 80%;
+}
+
 .menu{
     display: none;
     cursor: pointer;
