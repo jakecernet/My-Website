@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Source+Sans+Pro&display=swap");
 
 * {
-	/* font-family: 'Noto Sans', sans-serif; */ font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	margin: 0;
 	padding: 0;
 	
@@ -65,25 +65,6 @@ div.back-link {
 	top: 10px;
 }
 
-div.friendly-header {
-	display: flex;
-	
-	justify-content: center;
-	align-content: center;
-	align-items: center;
-
-	flex-direction: column;
-	flex-wrap: nowrap;
-	
-	text-align: center;
-	
-	padding: 5px;
-}
-
-div.friendly-desc {
-	margin-top: 5px;
-}
-
 a.blue {
 	color: #4287F5;
 }
@@ -114,45 +95,8 @@ div.title h1 {
 	text-align: left;
 }
 
-div.search-box {
-	display: flex;
-	
-	justify-content: center;
-	align-content: center;
-	
-	flex-direction: column;
-}
-
 div.table-list {
 	margin: 10px 0 10px 0;
-}
-
-div.notfound-container {
-	display: flex; 
-	
-	flex-direction: column;
-	
-	justify-content: center;
-	align-content: center;
-	
-	align-items: center;
-	
-	gap: 10px;
-	
-	padding: 10px;
-}
-
-div.notfound-title {
-	display: flex;
-	
-	flex-direction: row;
-	
-	justify-content: center;
-	align-content: center;
-	
-	align-items: center;
-	
-	gap: 10px;
 }
 
 hr.separator {
@@ -196,96 +140,6 @@ a.logo {
 
 p, h1 {
 	text-shadow: black 2px 0 2px;
-}
-
-#search {	
-	padding: 5px; 
-	width: 250px;
-	height: 20px;
-	
-	-webkit-box-sizing: content-box;
-	-moz-box-sizing: content-box;
-	box-sizing: content-box;
-	
-	-webkit-appearance: textfield;
-
-	font-size: 14px;
-	
-	border: 1px solid #ccc;
-	
-	background-color: #fff;
-	color: #555;
-	
-	border-radius: 3px;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	
-	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-	
-	transition: border linear .2s, box-shadow linear .2s;
-	-webkit-transition: border linear .2s, box-shadow linear .2s;
-	-moz-transition: border linear .2s, box-shadow linear .2s;
-	-o-transition: border linear .2s, box-shadow linear .2s;
-}
-#search:focus {
-	outline: 0;
-	border-color: rgba(0, 0, 0, 0.8);
-	
-	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(0, 0, 0, 0.6);
-	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(0, 0, 0, 0.6);
-	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(0, 0, 0, 0.6);
-}
-#search::-moz-focus-inner {
-	padding: 0;
-	border: 0;
-}
-
-.button {
-	min-width: 100px;
-	min-height: 27px;
-	
-	padding: 3px 15px 3px 15px;
-	
-	border-radius: 3px;
-	border: 1px solid #707070;
-
-	color: black;
-	
-	background: #f2f2f2;
-	background: -moz-linear-gradient(top, #f2f2f2 0%, #ebebeb 42%, #dddddd 47%, #cfcfcf 100%);
-	background: -webkit-linear-gradient(top, #f2f2f2 0%, #ebebeb 42%, #dddddd 47%, #cfcfcf 100%);
-	background: linear-gradient(to bottom, #f2f2f2 0%, #ebebeb 42%, #dddddd 47%, #cfcfcf 100%);
-	
-	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#cfcfcf', GradientType=0);
-	transition: all 0.1s ease-in;
-}
-
-.button:hover,
-.button:focus {
-	cursor: default;
-	outline: 0;
-	
-	background: #eaf6fd;
-	background: -moz-linear-gradient(top, #eaf6fd 0%, #d9f0fc 42%, #bee6fd 47%, #bce5fc 58%, #a7d9f5 100%);
-	background: -webkit-linear-gradient(top, #eaf6fd 0%, #d9f0fc 42%, #bee6fd 47%, #bce5fc 58%, #a7d9f5 100%);
-	background: linear-gradient(to bottom, #eaf6fd 0%, #d9f0fc 42%, #bee6fd 47%, #bce5fc 58%, #a7d9f5 100%);
-	
-	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#eaf6fd', endColorstr='#a7d9f5', GradientType=0);
-	border: 1px solid #3C7FB1;
-	
-	box-shadow: 0 0 3px #A7D9F5;
-	-o-box-shadow: 0 0 3px #A7D9F5;
-	-webkit-box-shadow: 0 0 3px #A7D9F5;
-	-moz-box-shadow: 0 0 3px #A7D9F5;
-}
-
-.button:active {
-	box-shadow: inset 0 -1px 6px rgba(0, 0, 0, 0.2), inset 0 -0.7em #BEE6FD, 0 0 3px #A7D9F5;
-	-o-box-shadow: inset 0 -1px 6px rgba(0, 0, 0, 0.2), inset 0 -0.7em #BEE6FD, 0 0 3px #A7D9F5;
-	-webkit-box-shadow: inset 0 -1px 6px rgba(0, 0, 0, 0.2), inset 0 -0.7em #BEE6FD, 0 0 3px #A7D9F5;
-	-moz-box-shadow: inset 0 -1px 6px rgba(0, 0, 0, 0.2), inset 0 -0.7em #BEE6FD, 0 0 3px #A7D9F5;
 }
 
 .icons {
