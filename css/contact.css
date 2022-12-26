@@ -62,3 +62,16 @@
     opacity: 75%;
     height: 15.4%;
 }
+
+.spotify{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    height: 15%;
+    border-radius: 5px;
+}
+
+.spotify:hover{
+    opacity: 75%;
+    height: 15.4%;
+}
