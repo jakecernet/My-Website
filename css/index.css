@@ -145,6 +145,13 @@ h1 {
     text-align: center;
 }
 
+.mobile{
+	position: absolute;
+	top: 30%;
+	left: 35%;
+	height: 30%;
+}
+
 .button {
     border: 0;
     padding: 2% 4%;
@@ -188,6 +195,20 @@ h1 {
     }
 	
 	.sl{
+		display: none;
+	}
+	
+	.mobile{
+		display: block;
+	}
+	
+	.hr{
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 701px){
+	.mobile{
 		display: none;
 	}
 }
